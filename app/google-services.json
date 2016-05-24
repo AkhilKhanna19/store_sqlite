@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_id": "appforngo",
+    "project_number": "445511416297",
+    "name": "AppforNgo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445511416297:android:87c048a2379386da",
+        "client_id": "android:appngo.myapp.com.appforngo",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "appngo.myapp.com.appforngo",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

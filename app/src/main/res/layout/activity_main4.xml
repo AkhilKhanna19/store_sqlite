@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/subjects"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="appngo.myapp.com.appforngo.Main4Activity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subjects you want to teach?"
+            android:textSize="25dp"
+            android:textColor="#0a090a"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#160260"
+            android:id="@+id/mat_id"
+            android:text="Maths"
+
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#160260"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:id="@+id/sci_id"
+            android:text="Science"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#160260"
+            android:padding="10dp"
+            android:id="@+id/com_id"
+            android:text="Computer"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#160260"
+            android:padding="10dp"
+            android:id="@+id/eng_id"
+            android:text="English"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#160260"
+            android:id="@+id/hin_id"
+            android:text="Hindi"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#160260"
+            android:id="@+id/geo_id"
+            android:text="Geography"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/sub_id"
+        android:background="#50ec50"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
