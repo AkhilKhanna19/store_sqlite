@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * Created by Akhil Khanna on 14-Aug-15.
+ * Created by Akhil Khanna on 14-Apr-16.
  */
 public class CustomViewAdapter extends RecyclerView.Adapter<CustomViewAdapter.MyViewHolder> {
 

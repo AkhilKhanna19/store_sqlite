@@ -1,6 +1,8 @@
 package appngo.myapp.com.appforngo;
 
-
+/**
+ * Created by Akhil Khanna on 18-Apr-16.
+ */
 public class userDetails {
     String username;
     String passwpord;

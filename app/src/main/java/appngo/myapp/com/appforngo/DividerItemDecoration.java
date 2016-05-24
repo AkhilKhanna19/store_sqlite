@@ -1,6 +1,8 @@
 package appngo.myapp.com.appforngo;
 
-
+/**
+ * Created by Akhil Khanna on 10-May-16.
+ */
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -10,7 +12,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-
+/**
+ * Created by Lincoln on 30/10/15.
+ */
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 
     private static final int[] ATTRS = new int[]{
